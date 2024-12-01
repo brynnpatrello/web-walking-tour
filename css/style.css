@@ -76,6 +76,20 @@ button:hover{
     cursor:pointer;
 }
 
+.kablammo-navbar {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+.rainbow-background{
+    background-image: url(https://images.unsplash.com/photo-1545431781-3e1b506e9a37?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
 /*SPLASH SCREEN STYLING*/
 #splash-dialogue, #splash-content, #splash-modal{
     background-color:white;/*background color of the splash screen*/
@@ -87,14 +101,21 @@ button:hover{
     z-index:5000;
 }
 #splash-body{
-    height:100%;
+    width:100vw;
     padding-bottom:20px;
     overflow:auto;
     -webkit-overflow-scrolling: touch;
 }
 #splash-title{
-    font-size:48px;
+    font-size: 30px;
+    font-family: "Kablammo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
 }
+
 #splash-content p{
     font-size:18px;
 }
