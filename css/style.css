@@ -97,17 +97,19 @@ button:hover{
     margin:0;
     max-width: 100vw !important;
     width:100vw !important;
-    height:100vh !important;
+    height:100% !important;
     z-index:5000;
 }
 #splash-body{
-    width:100vw;
     padding-bottom:20px;
     overflow:auto;
     -webkit-overflow-scrolling: touch;
 }
+.safetynotice {
+    width:90%;
+}
 #splash-title{
-    font-size: 30px;
+    font-size: 75;
     font-family: "Kablammo", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
