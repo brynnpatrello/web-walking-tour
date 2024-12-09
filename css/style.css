@@ -35,7 +35,7 @@ button:hover{
     display:block;
     width:180px;
     height:40px;
-    bottom:20px;
+    bottom:30px;
     right:calc(50% - 90px);
     font-size:20px;
     position:absolute;

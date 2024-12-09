@@ -477,6 +477,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	padding: 1px;
 	text-align: left;
 	border-radius: 12px;
+	background: url(https://images.unsplash.com/photo-1545431781-3e1b506e9a37?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 	}
 .leaflet-popup-content {
 	margin: 13px 24px 13px 20px;
@@ -514,7 +515,9 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	}
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-	background: white;
+	background-image: url(https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+	background-position: center;
 	color: #333;
 	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
 	}
