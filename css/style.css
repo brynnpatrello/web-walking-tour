@@ -92,7 +92,8 @@ button:hover{
 
 /*SPLASH SCREEN STYLING*/
 #splash-dialogue, #splash-content, #splash-modal{
-    background-color:white;/*background color of the splash screen*/
+    background-image: url("https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=4740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: 30% 60%;
     color:black;/*text color of the splash screen*/
     margin:0;
     max-width: 100vw !important;
